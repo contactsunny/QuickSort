@@ -44,7 +44,7 @@ Right sub-array = (partition index + 1) to right => 1 to 4 => [7, 8, 2, 3]
 
 ---
 
-Since the left sub-array has only one element, it'll be returned as is.
+Since the left sub-array has only one element, it will be returned as is.
 
 ---
 
