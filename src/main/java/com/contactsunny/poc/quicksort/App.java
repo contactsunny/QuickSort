@@ -36,7 +36,7 @@ public class App {
         // Making sure that we're not crossing the left and right bounds.
         if (left < right) {
             // Getting the index in the array where the partition has to be created.
-            int partitionIndex = getPartitionIndex(array, 0, array.length - 1);
+            int partitionIndex = getPartitionIndex(array, left, right);
             // Calling the method recursively to perform quick sort on the left array.
             quickSort(array, left, partitionIndex - 1);
             // Calling the method recursively to perform quick sort on the right array.
